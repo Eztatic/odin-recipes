@@ -32,7 +32,6 @@ figcaption {
 
 .recipe{
       width: 100%;
-      margin-top: 30px;
       display: flex;
       justify-content: space-evenly;
 }
@@ -40,7 +39,7 @@ figcaption {
 .recipe div{
       width: 600px;
       padding: 20px 30px;
-      border: 1px solid black;
+      border: 2px solid #c09d35;
       border-radius: 10px;
       background-color: #edd382;
 }
@@ -54,7 +53,13 @@ h1, h2, figcaption, p {
 }
 
 h1{
+      width: 100%;
+      padding: 10px 0px;
+      border-top: 2px solid #c09d35;
+      border-bottom: 2px solid #c09d35;
       margin-top: 10px;
+      background-color: #edd382;
+      text-align: center;
 }
 
 a {
@@ -63,3 +68,7 @@ a {
       top: 0;
 }
 
+h2, p, span {
+      display: inline-block;
+      margin: 0px 200px;
+}
