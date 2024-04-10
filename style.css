@@ -11,7 +11,7 @@ body {
 img {
       width: 400px;
       height: fit-content;
-      border: 2px solid #000000;
+      border: 2px solid #c09d35;
       border-radius: 10px;
 }
 
@@ -22,7 +22,8 @@ figcaption {
 
 .main-container{
       width: 1400px;
-      height: 100vh;
+      height: max-content;
+      padding-bottom: 50px;
       margin: auto;
       background-color: #f2f3ae;
       display: flex;
@@ -48,8 +49,12 @@ ul, ol {
       padding-left: 20px;
 }
 
-h1, h2, figcaption, p {
+h1, figcaption {
       margin-bottom: 10px;
+}
+
+li, p {
+      line-height: 2rem;
 }
 
 h1{
@@ -68,7 +73,12 @@ a {
       top: 0;
 }
 
-h2, p, span {
-      display: inline-block;
-      margin: 0px 200px;
+span {
+      width: fit-content;
+      padding: 0px 200px;
+      margin-bottom: 20px;
+      gap: 30px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
 }
